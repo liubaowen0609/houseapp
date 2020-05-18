@@ -1,0 +1,35 @@
+.my{
+    background-color: #f4f4f4;
+    height: 100%;
+}
+.top{
+    background-color: #5ac9fc;
+    height: 30%;
+    img{
+        border-radius: 50%;
+    }
+    a{
+        color: #fff;
+        font-size: 24px;
+    }
+    div{
+        color: #fff;
+    }
+    p{
+        text-align: center;
+    }
+    .rightBorder{
+        border-right: 1px solid #fff;
+        text-align: center;
+    }
+}
+.list{
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #cfcfcf;
+    img{
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+}

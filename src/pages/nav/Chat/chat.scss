@@ -1,0 +1,23 @@
+.fatherChat{
+    background-color: #f5f5f9;
+    height: 100%;
+    padding-top: 40%;
+}
+.chat{
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    background-color: #fff;
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    button{
+        background-color: green;
+    }
+}

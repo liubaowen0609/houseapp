@@ -1,0 +1,25 @@
+$theme:#00bc5b;
+.register{
+    background-color: #fff;
+    .regBtn{
+        background: $theme;
+        color: #fff;
+    }
+    p{
+        a{
+            color: $theme;
+        }
+    }
+    .my-radio .am-radio {
+        padding: 2.5px;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        margin-right: 5px;
+      }
+      .my-radio{
+        color: #dadbdd;
+        a{
+        color: $theme
+        }
+      }
+}

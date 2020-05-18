@@ -1,0 +1,20 @@
+$theme:#00bc5b;
+html{
+    background-color: #fff;
+}
+.login{
+    background-color: #fff;
+    .loginBtn{
+        background: $theme;
+        color: #fff;
+    }
+    a{
+        color: $theme;
+    }
+    p{
+        position: absolute;
+        bottom: 0;
+        color: #dee3ea;
+    }
+}
+
