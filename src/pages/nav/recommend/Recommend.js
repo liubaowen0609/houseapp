@@ -4,12 +4,12 @@ export default class Recommend extends Component {
     render() {
         return (
             <div>
-                <div id="container" style={{width:650,height:255}}>a</div>
+                <div id="container" style={{ width: '100%', height: 255 }}>a</div>
             </div>
         )
     }
-    
-    componentDidMount(){
+
+    componentDidMount() {
         var map = new window.AMap.Map("container", {
             resizeEnable: true, //地图是否可以重置大小
             center: [116.397428, 39.90923], //以哪个经纬度为中心点开始绘制

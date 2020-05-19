@@ -85,26 +85,12 @@ export default class index extends Component {
                 <div className='navbar' >
                     <div style={{ backgroundColor: '#00bc5b' }}>
                         <WingBlank size="md">
-                            <div>重庆市<Icon key="0" type="down" style={{ verticalAlign: 'middle' }} /></div>
+                            <div onClick={this.clickTitle.bind(this,'/#/choose')}>重庆市<Icon key="0" type="down" style={{ verticalAlign: 'middle' }} /></div>
                             <div><input placeholder='挑好房，上贝壳找房' className='homeSearch'></input></div>
-                            <div className='three' style={{ margin: 'right', verticalAlign: 'middle' }}><img src={require('../../../assets/imgs/address.png')}></img></div>
+                            <div onClick={this.clickTitle.bind(this,'/#/city')} className='three' style={{ margin: 'right', verticalAlign: 'middle' }}><img src={require('../../../assets/imgs/address.png')}></img></div>
                         </WingBlank>
                     </div>
                 </div>
-
-                {/* <NavBar
-                    style={{ backgroundColor: '#00bc5b' }}
-                    mode="dark"
-                    leftContent={[
-                        "重庆市",
-                        <Icon key="0" type="down" />
-                    ]}
-                    rightContent={[
-                        <img key="1" src={require('../../../assets/imgs/address.png')}></img>
-                    ]}
-                >
-                    <input placeholder='挑好房，上贝壳找房' className='homeSearch'></input>
-                </NavBar> */}
                 <Carousel
                     autoplay
                     infinite
@@ -170,6 +156,11 @@ export default class index extends Component {
                 </div>
             </div>
         )
+    }
+
+    // 单机头部跳转
+    clickTitle(val){
+        window.location.href = val
     }
     componentDidMount = () => {
         gethouselist().then((res) => {
